@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 240, 245);
+}
+
+.allLogin {
+    background: linear-gradient(to top, rgb(225, 30, 62), rgb(220, 79, 102), rgb(180, 85, 101));
+    height: 100vh;
+}
+
+.inputBox div h1 {
+    color: rgb(210, 20, 52);
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.lockInput {
+    border: 2px solid rgb(210, 20, 52);
+    width: 80%;
+}
+
+.lockInput:focus {
+    border: 3px solid rgb(210, 20, 52) !important;
+    width: 80%;
+    outline: none;
+}
+
+.lkbtn {
+    background: linear-gradient(to right, rgb(225, 30, 62), rgb(220, 79, 102), rgb(180, 85, 101));
+    color: white;
+    font-weight: 700;
+}
+
+.lkbtn:hover {
+    background: white !important;
+    color: rgb(210, 20, 52);
+    border: 1px solid rgb(210, 20, 52);
+}
+
+@media screen and (max-width:590px) {
+    .innerBoxInput {
+        padding: 25px 5px !important;
+    }
+
+    .inputBox {
+        width: 97% !important;
+        margin: auto !important;
+    }
+}
+
+/* end of style login page  */
+/* ============================================================== */
+
+.TopHeader {
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 900;
+    height: max-content;
+    color: white;
+    background: linear-gradient(to top, rgb(225, 30, 62), rgb(220, 79, 102), rgb(180, 85, 101));
+}
+
+.TopHeader h1 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.TopHeader h3 {
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 2%;
+}
+
+
+.All-Top {
+    position: relative;
+}
+
+.counter {
+    width: 95%;
+    margin: auto;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+}
+
+.num-count {
+    background-color: rgba(232, 103, 146, 0.819);
+    padding: 4px 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+.counter div p {
+    color: rgb(95, 19, 19);
+    font-weight: 800;
+}
+
+.label-count {
+    color: rgb(187, 18, 46);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:750px) {
+    .TopHeader h1 {
+        font-size: 50px !important;
+        margin-left: 4px;
+        padding-top: 7px;
+    }
+
+    .TopHeader h3 {
+        font-size: 18px;
+        font-weight: 700;
+        font-style: italic;
+        padding-left: 4%;
+    }
+
+    .label-count{
+        font-size: 22px;
+    }
+}
+/* end of header part  */
+/* =================================================== */
+
+.message-part{
+    margin-top: 160px;
+    direction: rtl;
+}
+.container-95{
+    width: 95%;
+    margin:180px auto 0px;
+}
+.message-card{
+    background-color: white;
+    margin-top: 35px;
+}
+.message-card h3{
+    color: rgb(210, 20, 52);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.message-card p{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* end of message part  */
+/* ==================================================== */
+
+
+.container-90{
+    width: 95%;
+    margin: auto;
+}
+
+.ourMemo h4{
+    color: rgb(210, 20, 52);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.zkra-btn{
+    color: white;
+    background-color: rgb(225, 30, 62);
+    font-weight: 700;
+}
+.zkra-btn:hover{
+    background-color: white;
+    color: rgb(225, 30, 62);
+    font-weight: 700;
+    border: 2px solid rgb(225, 30, 62);
+}
+.zkra-btn:active{
+    background-color: white !important;
+    color: rgb(225, 30, 62) !important;
+    font-weight: 700;
+    border: 2px solid rgb(225, 30, 62) !important;
+}
+.im-memo video{
+    max-height: 600px !important;
+}
+
+.card-pict{
+    direction: rtl;
+}
+.ourMH4{
+    color: rgb(210, 20, 52);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+/* end of pic part  */
+/* ===================================================================== */
+.Footer{
+    background: linear-gradient(to top, rgb(225, 30, 62), rgb(220, 79, 102), rgb(180, 85, 101));
+}
